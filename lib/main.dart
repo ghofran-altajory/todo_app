@@ -6,7 +6,8 @@ import 'package:todo_app/screens/login_screen.dart';
 import 'package:todo_app/screens/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-
+// ignore: unused_import
+import 'package:firebase_storage/firebase_storage.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
